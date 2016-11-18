@@ -1,5 +1,5 @@
 #Fizz Buzz問題に挑戦するょ
-#千葉県
+#千葉県松戸市六甲台
 for count in range(1, 101):
 	
 	if (count % 3 == 0) and (count % 5 == 0):
