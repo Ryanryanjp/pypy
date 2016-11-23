@@ -6,16 +6,13 @@ st = int(input('入力した数までの素数を調べます : '))
 start = time.time()
 
 if (st < 2):
-
   pricount = 0
 
 elif (st == 2):
-
   print (2)
   pricount = 1
 
 else:
-
   print (2)
   pricount = 1 
 
@@ -28,15 +25,12 @@ else:
       for i in range(1, prime + 1):
 
         if (prime % i == 0) and (count <= 2):
-
           count += 1
 
         else:
-
-         continue 
+          continue 
       
     if (count == 2):
-
       print (prime)
       pricount += 1
    
